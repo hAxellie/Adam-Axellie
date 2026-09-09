@@ -26,8 +26,8 @@ color: white;
 text-decoration: none;
 }
 
-nav a:hoover {
-    text-decoration: underline;
+nav a:hover {
+    text-decoration: color #796572;
 }
 
 /* Main-innehåll */
