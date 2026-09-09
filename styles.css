@@ -14,10 +14,14 @@ html, body {
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: beige;
-    color: #333;
+    color: #fdfbfb;
     display: flex;
     flex-direction: column;
+    background-image: url('images/background.jpg');
+    background-size: cover; /* Fyller hela skärmen */
+    background-position: center; /* Centrerar bilden */
+    background-attachment: fixed; /* Bakgrunden rullar inte med sidan */
+    background-repeat: no-repeat; /* Upprepar inte bilden */
 }
 
 /* Header-styling */
