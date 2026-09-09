@@ -27,6 +27,7 @@ text-decoration: none;
 }
 
 nav a:hover {
+    text-decoration: underline;
     color: #463a3a;
 }
 
