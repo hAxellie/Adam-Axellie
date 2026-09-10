@@ -42,7 +42,7 @@ nav a {
     display: inline-block;
     justify-content: center;
     padding: 10px 15px;
-    background-color: #35424a;
+    background-color: #495b66;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -107,6 +107,12 @@ article a:active {
     transform: translateY(0);
 }
 
+.date {
+    margin: 0 0 1rem;
+    color: #c7c7c7;
+    font-size: 0.9rem;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -139,6 +145,10 @@ footer {
     margin: 1rem 0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post p {
+    margin: 2rem 0;
 }
 
 .read-more {
