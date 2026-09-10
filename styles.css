@@ -72,13 +72,17 @@ main {
 }
 
 main iframe,
-main img,
 main embed,
 main object {
     max-width: 100%;
     height: 800px;
     margin: 0 auto;
     display:block;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
 }
 
 article a {
@@ -212,5 +216,13 @@ footer {
     .img-rounded {
         width: 100%;
         height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    main iframe,
+    main embed,
+    main object {
+        height: 600px;
     }
 }
