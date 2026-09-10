@@ -212,6 +212,32 @@ footer {
     box-sizing: border-box;
 }
 
+.skills {
+    width: 90%;
+    max-width: 850px;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.skills-card {
+    padding: 1.5rem;
+    background-color: rgba(86, 82, 82, 0.8);
+    border-radius: 12px;
+}
+
+.skills-card h3 {
+    margin-top: 0;
+    color: #8db3f2;
+}
+
+
 @media (max-width: 600px) {
     .img-rounded {
         width: 100%;
@@ -224,5 +250,11 @@ footer {
     main embed,
     main object {
         height: 600px;
+    }
+}
+
+@media (max-width: 700px) {
+    .skills-list {
+        grid-template-columns: 1fr;
     }
 }
