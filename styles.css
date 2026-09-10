@@ -66,10 +66,8 @@ nav a:active {
 main {
     padding: 2rem;
     max-width: 600px;
-    margin: 5rem auto 0;
-    padding: 2rem;
+    margin: 2rem auto 0;
     flex: 1;
-    margin-top: 2rem;
     text-align: center;
 }
 
@@ -121,15 +119,6 @@ footer {
     color: white;
 }
 
-.img-rounded {
-    border-radius: 10%;
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    display: block;
-    margin: 2rem auto 0;
-}
-
 .blog-card {
     background-color: rgba(86, 82, 82, 0.8);
     padding: 1rem;
@@ -171,11 +160,52 @@ footer {
 }
 
 .intro {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    max-width: 850px;
+    width: 90%;
+    margin: 4rem auto;
+    text-align: left;
     background-color: rgba(86, 82, 82, 0.8);
-    padding: 1rem;
-    margin: 1rem 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    margin: 0 auto 2rem;
+    border-radius: 15px;
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.intro-text {
+    flex: 1;
+    max-width: 550px;
+    min-width: 300px;
+}
+
+.intro-text h2 {
+    margin-bottom: 3rem;
+}
+
+.intro-text p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.img-rounded {
+    border-radius: 10%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    outline: 5px solid #35424a;
+    flex-shrink: 0;
+}
+
+.home-main {
+    flex: 1;
+    width: 100%;
+    max-width: none;
+    padding: 2rem 0;
+    box-sizing: border-box;
 }
 
 @media (max-width: 600px) {
