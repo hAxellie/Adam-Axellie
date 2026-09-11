@@ -305,6 +305,30 @@ footer {
     transform: translateY(0);
 }
 
+.arkiv-knapp {
+    display: inline-block;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: #495b66;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.arkiv-knapp:hover {
+    background-color: #1f2a30;
+    transform: translateY(-2px);
+}
+
+.arkiv-knapp:active {
+    background-color: #1f2a30;
+    transform: translateY(0);
+}
+
 @media (max-width: 600px) {
     .embed-cv {
         width: 100%;
