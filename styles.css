@@ -278,7 +278,8 @@ footer {
 }
 
 @media (max-width: 600px) {
-    .nav {
-        margin: 0 auto;
+    .nav a {
+        margin: 0 0.5rem;
+        padding: 6.5px 10px;
     }
 }
