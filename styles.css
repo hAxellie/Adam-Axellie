@@ -286,7 +286,7 @@ footer {
 @media (max-width: 600px) {
     .embed-cv,
     .embed-cv iframe {
-        width: 400px;
+        width: auto;
         height: 600px;
         margin-bottom: auto;
 
