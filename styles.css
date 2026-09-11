@@ -35,7 +35,7 @@ header {
 
 /* Navigering */
 nav {
-    gap: 10px;
+    gap: 7px;
 }
 
 nav a {
@@ -265,5 +265,20 @@ footer {
         width: 80%;
         height: auto;
         margin: 2rem auto 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .embed-cv {
+        width: auto;
+        height: auto;
+        margin-bottom: auto;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .nav {
+gap: 5px;
     }
 }
