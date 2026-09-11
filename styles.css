@@ -52,6 +52,13 @@ nav a {
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    .nav a {
+        margin: 0 0.5rem;
+        padding: 6.5px 10px;
+    }
+}
+
 nav a:hover {
     background-color: #1f2a30;
     transform: translateY(-2px);
@@ -69,14 +76,6 @@ main {
     margin: 2rem auto 0;
     flex: 1;
     text-align: center;
-}
-
-main embed,
-main object {
-    max-width: 100%;
-    height: 800px;
-    margin: 0 auto;
-    display:block;
 }
 
 main img {
@@ -193,6 +192,23 @@ footer {
     line-height: 1.8;
 }
 
+@media (max-width: 600px) {
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro-text {
+        max-width: 100%;
+    }
+
+    .img-rounded {
+        width: 80%;
+        height: auto;
+        margin: 2rem auto 0;
+    }
+}
+
 .img-rounded {
     border-radius: 10%;
     width: 300px;
@@ -225,6 +241,12 @@ footer {
     margin-top: 2rem;
 }
 
+@media (max-width: 600px) {
+    .skills-list {
+        grid-template-columns: 1fr;
+    }
+}
+
 .skills-card {
     padding: 1.5rem;
     background-color: rgba(86, 82, 82, 0.8);
@@ -236,66 +258,63 @@ footer {
     color: #8db3f2;
 }
 
+.cv-section {
+    width: min(1000px, 80vw);
+    max-width: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
 .embed-cv {
     width: 100%;
-    height: 800px;
-    margin-bottom: 2rem;
+    height: 1000px;
+    margin: 0 auto 2rem;
 }
 
 .embed-cv iframe {
-    width: 600px;
-    height: 840px;
-    border: none;
     display: block;
-    max-width: 900px;
-    margin-bottom: 5rem;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+.pdf-link {
+    display: inline-block;
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: #495b66;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0 0.5rem;
+    text-align: center;
+}
+
+.pdf-link:hover {
+    background-color: #1f2a30;
+    transform: translateY(-2px);
+}
+
+.pdf-link:active {
+    background-color: #1f2a30;
+    transform: translateY(0);
 }
 
 @media (max-width: 600px) {
-    main embed,
-    main object {
-        height: 100%;
+    .embed-cv {
         width: 100%;
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 600px) {
-    .skills-list {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 600px) {
-    .intro {
-        flex-direction: column;
-        text-align: center;
+        height: 700px;
+        margin: 0 0 2rem;
     }
 
-    .intro-text {
-        max-width: 100%;
-    }
-
-    .img-rounded {
-        width: 80%;
-        height: auto;
-        margin: 2rem auto 0;
-    }
-}
-
-@media (max-width: 600px) {
-    .embed-cv,
     .embed-cv iframe {
-        width: auto;
-        height: 600px;
-        margin-bottom: auto;
-
+        width: 100%;
+        height: 100%;
     }
 }
 
-@media (max-width: 600px) {
-    .nav a {
-        margin: 0 0.5rem;
-        padding: 6.5px 10px;
-    }
-}
