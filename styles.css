@@ -240,15 +240,20 @@ footer {
 
 @media (max-width: 600px) {
     .img-rounded {
-        width: 100%;
+        display: block;
+        width: 80%;
         height: auto;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 600px) {
     main iframe,
     main embed,
-    main object {
+    main object,
+    main  {
         height: 600px;
     }
 }
