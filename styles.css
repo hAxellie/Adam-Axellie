@@ -237,29 +237,33 @@ footer {
     color: #8db3f2;
 }
 
-
-@media (max-width: 600px) {
-    .img-rounded {
-        display: block;
-        width: 80%;
-        height: auto;
-        max-width: 300px;
-        height: auto;
-        margin: 0 auto;
-    }
-}
-
 @media (max-width: 600px) {
     main iframe,
     main embed,
-    main object,
-    main  {
+    main object {
         height: 600px;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .skills-list {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro-text {
+        max-width: 100%;
+    }
+
+    .img-rounded {
+        width: 80%;
+        height: auto;
+        margin: 2rem auto 0;
     }
 }
