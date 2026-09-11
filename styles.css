@@ -259,7 +259,7 @@ footer {
 }
 
 .cv-section {
-    width: min(1000px, 80vw);
+    width: min(1000px, 80vw, 90vh);
     max-width: none;
     margin-left: 50%;
     transform: translateX(-50%);
