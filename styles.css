@@ -279,6 +279,13 @@ footer {
     border: none;
 }
 
+.img-blogpost {
+    border-radius: 50%;
+    display: block;
+    flex-shrink: 0;
+    outline: 5px solid #35424a;
+}
+
 
 
 .pdf-link {
